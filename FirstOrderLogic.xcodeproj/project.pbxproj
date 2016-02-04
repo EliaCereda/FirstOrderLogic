@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		45A85FD21C306C5400A0B3D7 /* TokenizerError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45A85FD11C306C5400A0B3D7 /* TokenizerError.swift */; };
 		45A85FD81C34962400A0B3D7 /* SyntaxTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45A85FD71C34962400A0B3D7 /* SyntaxTree.swift */; };
 		45A85FDA1C349BB900A0B3D7 /* Parser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45A85FD91C349BB900A0B3D7 /* Parser.swift */; };
 		45A85FDC1C349CFC00A0B3D7 /* PeekableGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45A85FDB1C349CFC00A0B3D7 /* PeekableGenerator.swift */; };
@@ -23,7 +22,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		45A85FD11C306C5400A0B3D7 /* TokenizerError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TokenizerError.swift; sourceTree = "<group>"; };
 		45A85FD71C34962400A0B3D7 /* SyntaxTree.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SyntaxTree.swift; sourceTree = "<group>"; };
 		45A85FD91C349BB900A0B3D7 /* Parser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Parser.swift; sourceTree = "<group>"; };
 		45A85FDB1C349CFC00A0B3D7 /* PeekableGenerator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PeekableGenerator.swift; sourceTree = "<group>"; };
@@ -113,7 +111,6 @@
 			isa = PBXGroup;
 			children = (
 				45F04C4A1C3066B2009EF665 /* Token.swift */,
-				45A85FD11C306C5400A0B3D7 /* TokenizerError.swift */,
 				45F04C4C1C3066D5009EF665 /* Tokenizer.swift */,
 			);
 			path = Tokenizer;
@@ -205,7 +202,6 @@
 				45F04C501C30675D009EF665 /* NSCharacterSet.swift in Sources */,
 				45A85FDA1C349BB900A0B3D7 /* Parser.swift in Sources */,
 				45A85FFB1C34AD1A00A0B3D7 /* SequenceType.swift in Sources */,
-				45A85FD21C306C5400A0B3D7 /* TokenizerError.swift in Sources */,
 				45A85FD81C34962400A0B3D7 /* SyntaxTree.swift in Sources */,
 				45A860001C34B4F100A0B3D7 /* Semantics.swift in Sources */,
 				45F04C391C30668B009EF665 /* AppDelegate.swift in Sources */,
