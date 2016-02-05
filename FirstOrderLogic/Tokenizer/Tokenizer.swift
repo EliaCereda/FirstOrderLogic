@@ -54,11 +54,10 @@ class Tokenizer {
         for (keyword, token) in self.keywordTokens {
             let keyword = keyword.characters
             
-            if stringView.startsWith(keyword) {
-                index = startIndex.advancedBy(keyword.count)
+            if let endIndex = stringView.startsWith(keyword) {
+                index = endIndex
                 
                 // Keyword Tokens must be followed by a space or the end of the string
-                //
                 if index != string.endIndex && character != " " {
                     print("Keyword token not terminated")
                     return nil
